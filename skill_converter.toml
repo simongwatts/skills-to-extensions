@@ -1,0 +1,6 @@
+# .gemini/commands/skill_converter.toml
+description = "Converts a directory of Claude skills into Gemini extensions."
+
+# The prompt calls the python script ~/.gemini/commands/skill_converter.py with the args passed in
+# Adjust the path based on your project structure.
+prompt = "!{python ~/.gemini/commands/skill_converter.py {{args}}}"
