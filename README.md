@@ -143,4 +143,4 @@ Now that all skills are loaded into the model's context, you can make high-level
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE.txt](LICENSE) file for details.
