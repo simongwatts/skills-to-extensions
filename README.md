@@ -79,6 +79,8 @@ mv ./converted_skills/* ~/.gemini/extensions/
 
 ### Step 5: Verify the Global Context
 
+**Crucial Step:** Before launching Gemini, you must navigate out of the `skills` source directory. This is to ensure that you are testing the globally installed extensions from `~/.gemini/extensions` and not the local source files in your current folder.
+
 Now, we will confirm that the Gemini model is aware of all the new skills right from the start.
 
 1.  **Launch the Gemini CLI** in interactive mode from any directory:
