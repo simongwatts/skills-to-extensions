@@ -2,6 +2,16 @@
 
 A command-line tool to convert Anthropic Claude skills into self-contained Google Gemini extensions.
 
+---
+
+> 👋 **Just a heads-up!**
+>
+> This is a personal, open-source project and is not affiliated with Anthropic or Google. I built it to solve a problem I had and I hope it helps you too. It's provided "as-is" without any official support.
+>
+> **And a quick security note ⚠️:** Please treat this tool as an experimental proof-of-concept. Since skills/extensions can contain code, it's wise to handle the code like any untrusted script you'd find online. For extra safety, running them in a sandbox or container is a great idea. **Use at your own risk.**
+
+---
+
 ## Overview
 
 This project provides a Python script that automates the migration of Claude skills to the Gemini extension format. It recursively finds skills, converts them, and injects a universal MCP server that allows the extension to read its own files.
